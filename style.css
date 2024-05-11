@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  background-color: black;
+  height: 70px;
+  width: 100%;
+}
+.logo {
+  padding: 20px 45px;
+  font-size: 25px;
+  color: #fff;
+  align-self: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.logo span {
+  color: purple;
+  font-size: 30px;
+}
+.hero {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*border-top: 30px solid purple;*/
+  background-image: linear-gradient(to right, red, purple);
+  padding: 10%;
+  height: 10%;
+}
+.hero h1 {
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 50px;
+}
+.hero p {
+  font-size: 25px;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  padding-top: 100px;
+}
+.hero span {
+  color: purple;
+}
+.hero-btn {
+  width: 200px;
+  padding: 20px 0 20px 0;
+  background-color: black;
+  border: 0;
+  outline: 0;
+  margin-top: 80px;
+  align-self: center;
+  transition: 1s ease-out;
+}
+.hero-btn:hover {
+  background-image: linear-gradient(to right, red, purple);
+}
+.hero-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+.course {
+  color: #fff;
+  align-self: center;
+  margin-top: 8px;
+}
+.Course__header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 100px;
+}
+.Course__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  column-gap: 10px;
+}
+.list {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: black;
+  color: #fff;
+  width: 300px;
+  height: 200px;
+  align-self: center;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 20px;
+  border: 6px solid orange;
+}
+.list p {
+  margin-bottom: 30px;
+}
+.list a {
+  padding-top: 20px;
+  color: orange;
+}
+@media (max-width: 200px) {
+}
+@media (max-width: 420px) {
+  .logo {
+    font-size: 25px;
+  }
+  .hero h1 {
+    width: 0%;
+    font-size: 35px;
+  }
+}
+.html__header,
+.css__header,
+.js__header,
+.react js__header,
+.python__header {
+  text-align: center;
+  margin-top: 5%;
+  font-family: "Courier New", Courier, monospace;
+}
